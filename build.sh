@@ -14,7 +14,7 @@ build.sh -- helper script to download and build Aseba
 Usage (if non-root, prefix with "sudo "):
 To update Ubuntu
   ./build.sh prepare
-To download Aseba, Dashel and enki
+To download Aseba, Dashel and Enki
   ./build.sh get
 To compile everything
   ./build.sh build

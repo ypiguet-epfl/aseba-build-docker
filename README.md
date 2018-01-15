@@ -12,7 +12,7 @@ To get a shell with /host mapped to the current directory on the host (then deb 
 
 	sudo docker run -it -v `pwd`:/host aseba-linux-build
 
-Once you're in the docker shell (as root), you can modify the source code and run parts of the build process by running the build script manually:
+Once you're in the docker shell (as root), you can modify the source code and execute parts of the build process by running the build script manually:
 
 	./build.sh help
 
@@ -21,3 +21,9 @@ Type `exit` or ctrl-d to exit the docker shell.
 ## Reference
 
 The build script is based on instructions at https://github.com/aseba-community/aseba/blob/master/compile.Linux.md
+
+Docker web site: https://www.docker.com
+
+The Dockerfile (docker component configuration file) in this repository runs fine with the free community edition available for Linux, Windows and macOS at https://www.docker.com/community-edition
+
+YP/20180115
