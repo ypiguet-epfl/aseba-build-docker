@@ -24,6 +24,8 @@ To compile only enki
   ./build.sh build enki
 To compile only aseba
   ./build.sh build aseba
+To run tests on aseba
+  ./build.sh test
 To make deb packages
   ./build.sh deb
 eof
@@ -63,6 +65,10 @@ aseba)
 "$0" build aseba
 ;;
 esac
+;;
+
+test)
+(cd $BASE/build-aseba; make test)
 ;;
 
 deb)
