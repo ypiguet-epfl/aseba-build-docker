@@ -34,7 +34,7 @@ eof
 prepare)
 apt-get update
 # packages for build
-apt-get install -y libqt4-dev libqtwebkit-dev qt4-dev-tools libqwt5-qt4-dev libudev-dev libxml2-dev libsdl2-dev libavahi-compat-libdnssd-dev cmake g++ git make build-essential devscripts equivs libjs-jquery
+apt-get install -y qttools5-dev-tools qtbase5-dev qt5-qmake libqt5opengl5-dev libqt5svg5-dev libqt5x11extras5-dev libqwt-qt5-dev libqt5help5 libudev-dev libxml2-dev libsdl2-dev libavahi-compat-libdnssd-dev cmake g++ git make
 # packages for deb dashel
 apt-get install -y libjs-jquery
 # packages for deb enki
